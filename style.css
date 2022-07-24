@@ -173,14 +173,14 @@ nav.navbar{
 }
 #bid-price{
     height: 361px;
-    width: 580px;
+    width: 554px;
     position: absolute;
     top: 220px;
     left: 310px;
 }
 #ask-price{
     height: 361px;
-    width: 580px;
+    width: 554px;
     position: absolute;
     top: 220px;
     right: 13px;
@@ -220,7 +220,7 @@ thead{
 }
 #trade-log{
     height: 310px;
-    width: 1178px;
+    width: 1120px;
     position: relative;
     margin-left: 298px;
     bottom: 50px;

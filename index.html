@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/9f60147538.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+    <title>AFEK</title>
+</head>
+<body class="container-fluid">
+    <nav class="navbar">
+        <img src="comx.jpg" class="navbar-brand position-absolute img-fluid" width="112.84px" alt="logo">
+        <div class="theme"><span class="themeText">LIGHT</span><span><i class="fa-solid fa-circle-half-stroke"></i></span></div>
+        <div id="balances">
+            <div class="balance"><span class="balance-title">CASH BALANCE</span><br><span class="price">₦8,374,763</span></div>
+            <div class="balance"><span class="balance-title">SECURITES VALUE</span><br><span class="price">₦8,374,763</span></div>
+            <div class="balance"><span class="balance-title">LOAN BALANCE</span><br><span class="price">₦7,542,246</span></div>
+        </div>
+        <button type="button" class="btni" ><span class="txtbtn">DEMO</span></button>
+    </nav>
+    <div id="sidebar">
+        <div class="side-bars"><a href=""><i class="fa-solid fa-border-all"></i><br><span class="side-bars-text">Overview</span></a></div>
+        <div class="side-bars"><a href=""><i class="fa-solid fa-chart-line"></i><br><span class="side-bars-text">Market</span></a></div>
+        <div class="side-bars"><a href=""><i class="fa-solid fa-briefcase"></i><br><span class="side-bars-text">Portfolio</span></a></div>
+        <div class="side-bars"><a href=""><i class="fa-solid fa-user-group"></i><br><span class="side-bars-text">Community</span></a></div>
+        <div class="side-bars"><a href=""><i class="fa-solid fa-file"></i><br><span class="side-bars-text">Report</span></a></div>
+        <div class="side-bars"><a href=""><i class="fa-solid fa-gear"></i><br><span class="side-bars-text">Settings</span></a></div>
+    </div>
+    <div class="navigate">
+        <label><input type="search" title="search" class="search" placeholder="Search &#61447;"></label>
+        <div class="bar"><a href=""><i class="fa-solid fa-arrow-trend-up"></i><span class="bar-text">Product View</span></a></div>
+        <div class="bar"><a href=""><i class="fa-solid fa-book"></i><span class="bar-text">Order Book</span></a></div>
+        <div class="bar"><a href=""><i class="fa-solid fa-clock-rotate-left"></i><span class="bar-text">Price History</span></a></div>
+        <div class="bar"><a href=""><i class="fa-solid fa-eye"></i><span class="bar-text">Open Orders</span></a></div>
+        <div class="bar"><a href=""><i class="fa-solid fa-circle-check"></i><span class="bar-text">Closed Trades</span></a></div>
+        <div class="bar"><a href=""><i class="fa-solid fa-circle-xmark"></i><span class="bar-text">Cancelled Trades</span></a></div>
+    </div>
+    <div class="board">
+        <div class="boardrow">
+            <button class="brdbtn-head">Board</button>
+            <button class="brdbtn">X-Traded</button>
+            <button class="brdbtn">OTC</button>
+            <button class="brdbtn">FI</button>
+            <button class="brdbtn">Derivatives</button>
+        </div>
+        <div class="boardrow">
+            <button class="brdbtn-head">Product</button>
+            <button class="brdbtn">All</button>
+            <button class="brdbtn">SMAZ</button>
+            <button class="brdbtn">SBSS</button>
+            <button class="brdbtn">SPRL</button>
+            <button class="brdbtn">SGNG</button>
+            <button class="brdbtn">SSGM</button>
+            <button class="brdbtn">FETC</button>
+            <button class="brdbtn">SCOC</button>
+        </div>
+    </div>
+    <div id="bid-price">
+        <table class="table">
+            <thead>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Bid Price</th>
+                <th></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Soybeans (SSBS)</td>
+                    <td>2003</td>
+                    <td class="bid-price">1736.92</td>
+                    <td><button class="buy-btn">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Paddy Rice (SPRL)</td>
+                    <td>11293</td>
+                    <td class="bid-price">3627.00</td>
+                    <td><button class="buy-btn">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Maize (SMAZ)</td>
+                    <td>1832</td>
+                    <td class="bid-price">8294.01</td>
+                    <td><button class="buy-btn">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Sorghum (SSGM)</td>
+                    <td>29102</td>
+                    <td class="bid-price">8192.00</td>
+                    <td><button class="buy-btn">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Fair Trade ETC (FETC)</td>
+                    <td>3212</td>
+                    <td class="bid-price">1736.92</td>
+                    <td><button class="buy-btn">Buy</button></td>
+                </tr>
+                <tr>
+                    <td>Fair Trade ETC (FETC)</td>
+                    <td>3212</td>
+                    <td class="bid-price">1736.92</td>
+                    <td><button class="buy-btn">Buy</button></td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+
+    <div id="ask-price">
+        <table class="table">
+            <thead>
+                <th>Product</th>
+                <th>Quantity</th>
+                <th>Ask Price</th>
+                <th></th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Soybeans (SSBS)</td>
+                    <td>2003</td>
+                    <td class="ask-price">1736.92</td>
+                    <td><button class="sell-btn">Sell</button></td>
+                </tr>
+                <tr>
+                    <td>Paddy Rice (SPRL)</td>
+                    <td>11293</td>
+                    <td class="ask-price">3627.00</td>
+                    <td><button class="sell-btn">Sell</button></td>
+                </tr>
+                <tr>
+                    <td>Maize (SMAZ)</td>
+                    <td>1832</td>
+                    <td class="ask-price">8294.01</td>
+                    <td><button class="sell-btn">Sell</button></td>
+                </tr>
+                <tr>
+                    <td>Sorghum (SSGM)</td>
+                    <td>29102</td>
+                    <td class="ask-price">8192.00</td>
+                    <td><button class="sell-btn">Sell</button></td>
+                </tr>
+                <tr>
+                    <td>Fair Trade ETC (FETC)</td>
+                    <td>3212</td>
+                    <td class="ask-price">1736.92</td>
+                    <td><button class="sell-btn">Sell</button></td>
+                </tr>
+                <tr>
+                    <td>Fair Trade ETC (FETC)</td>
+                    <td>3212</td>
+                    <td class="ask-price">1736.92</td>
+                    <td><button class="sell-btn">Sell</button></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div id="trade-log">
+        <table class="table">
+            <p class='tlog-header'>TRADE LOG</p>
+            <thead>
+                <th>Security</th>
+                <th>Board</th>
+                <th>Order Time</th>
+                <th>Matched Price</th>
+                <th>Quantity</th>
+                <th>Date</th>
+                <th>Time</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Soybeans (SSBS)</td>
+                    <td>X-Traded</td>
+                    <td>Buy</td>
+                    <td>1792.65</td>
+                    <td>9265</td>
+                    <td>17 Oct,2020</td>
+                    <td>07:38</td>
+                </tr>
+                <tr>
+                    <td>Paddy Rice (SPRL)</td>
+                    <td>X-Traded</td>
+                    <td>Buy</td>
+                    <td>1792.65</td>
+                    <td>9265</td>
+                    <td>8 Sep,2020</td>
+                    <td>02:02</td>
+                </tr>
+                <tr>
+                    <td>Maize (SMAZ)</td>
+                    <td>OTC</td>
+                    <td>Sell</td>
+                    <td>1792.65</td>
+                    <td>9265</td>
+                    <td>24 May,2020</td>
+                    <td>06:42</td>
+                </tr>
+                <tr>
+                    <td>Sorghum (SSGM)</td>
+                    <td>FI</td>
+                    <td>Sell</td>
+                    <td>1792.65</td>
+                    <td>9265</td>
+                    <td>1 Feb,2020</td>
+                    <td>01:09</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="footer row">
+        <button class="col footer-btn">LIVE MARKET</button>
+        <div class="col"><span>Soybeans(SBBS)</span><br><span>₦30,834.59</span></div>
+        <div class="col"><span>Sorghum(SSGM)</span><br><span>₦30,834.59</span></div>
+        <div class="col"><span>Soybeans(SBBS)</span><br><span>₦30,834.59</span></div>
+        <div class="col"><span>Maize(SMAZ)</span><br><span>₦30,834.59</span></div>
+        <div class="col"><span>Paddy Rice(SPRL)</span><br><span>₦30,834.59</span></div>
+        <div class="col"><span>Cocoa(SCOC)</span><br><span>₦30,834.59</span></div>
+        <div class="col"><span>Soybeans(SBBS)</span><br><span>₦30,834.59</span></div>
+    </div>
+</body>
+</html>

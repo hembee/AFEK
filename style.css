@@ -1,0 +1,254 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #e5e5e5;
+}
+nav.navbar{
+    height: 62px;
+    width: 100%;
+    border-bottom: 1px solid #EDEDED;
+    
+    align-items: center;
+    background-color: #fff;
+}
+.navbar-brand{
+    margin-left: 15px;
+    width: 112px;
+    height: 59px;
+}
+.theme{
+    width:61.91px;
+    height: 31px;
+    border-radius: 12.5px;
+    background-color: #f4f4f6;
+    position: absolute;
+    left: 704px;
+    display: flex;
+    align-items: center;
+}
+.themeText{
+    font-family: 'Roboto';
+    font-size: 7px;
+    font-weight: 500;
+    position: absolute;
+    height: 8px;
+    left: 12.9%;
+    right: 54.84%;
+    top: calc(50% - 8px/2 + 0.5px);
+}
+.fa-circle-half-stroke{
+    position: absolute;
+    left: 53.23%;
+    right: 6.45%;
+    top: 25%;
+    width: 25px;
+    height: 25px;
+}
+#sidebar{
+    width: 83px;
+    height:100%;
+    align-items: center;
+}
+#sidebar .fa-solid{
+    font-size:xx-large ;
+}
+.side-bars{
+    position: relative;
+    margin-top: 40px;
+    text-align: center;
+}
+.side-bars-text{
+    font-size: 12px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    line-height: 14px;
+}
+.navigate{
+    width: 207px;
+    height:352px;
+    position: absolute;
+    left: 92px;
+    top: 71px;
+    background: #FFFFFF;
+    margin-left: 9px;
+}
+.search{
+    width: 191px;
+    height: 27px;
+    background-color: #e5e5e5;
+}
+.bar{
+    margin-top: 34px;
+}
+.bar .fa-solid{
+    position: relative;
+    margin-right: 15px;
+    margin-left: 30px;
+}
+.bar .bar-text{
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 500;
+}
+.bar a, .side-bars a{
+    text-decoration: none;
+    color: #1e1e1e;
+}
+.bar a:hover, .side-bars a:hover{
+    color: #D71E0E;
+}
+
+.balance{
+  width: 87px;
+  margin-left: 52px;
+}
+
+.balance-title{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 10px;
+    color: #778ca2;
+}
+#balances{
+    width: 468.56px;
+    position: absolute;
+    left: 61.2%;
+    right: 32.75%;
+    top: 12.5%;
+    bottom: 20.31%;
+    border-left: 2px solid #EDEDED;
+    border-right: 2px solid #EDEDED;
+    display: flex;
+}
+.price{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    color:#1e1e1e;
+    
+}
+.btni{
+    width: 48px;
+    
+    position: absolute;
+    right: 2.22%;
+    background-color: #1e1e1e;
+    color: #FFFFFF;
+}
+
+.board{
+    width: 1119px;
+    height: 115px;
+    position: absolute;
+    top: 71px;
+    left: 308px;
+}
+
+
+.brdbtn{
+    margin: 15px;
+    border-radius: 15px;
+    border: none;
+    padding: 10px 15px;
+    font-size: 14px;
+    width:max-content;
+}
+
+.brdbtn:hover{
+    background-color: #D71E0E;
+    color: #FFFFFF;
+}
+.brdbtn-head{
+    margin: 15px;
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+}
+#bid-price{
+    height: 361px;
+    width: 580px;
+    position: absolute;
+    top: 220px;
+    left: 310px;
+}
+#ask-price{
+    height: 361px;
+    width: 580px;
+    position: absolute;
+    top: 220px;
+    right: 13px;
+}
+thead{
+    font-size: 12px;
+    color:#778ca2
+}
+.buy-btn{
+    border: 1px solid #52965E;
+    color: #52965E;
+    padding: 4px 20px;
+    font-size: 14px;
+}
+.buy-btn:hover{
+    background-color: #52965E;
+    color: #e5e5e5;
+}
+
+.sell-btn{
+    border: 1px solid #E55541;
+    color: #E55541;
+    padding: 4px 20px;
+    font-size: 14px;
+}
+.sell-btn:hover{
+    background-color: #E55541;
+    color: #e5e5e5;
+}
+.bid-price{
+    color: #52965E;
+    font-size: 14px;
+}
+.ask-price{
+    color: #E55541;
+    font-size: 14px;
+}
+#trade-log{
+    height: 310px;
+    width: 1178px;
+    position: relative;
+    margin-left: 298px;
+    bottom: 50px;
+}
+.tlog-header{
+    padding-top: 18px;
+    padding-left: 5px;
+    font-size: 12px;
+    color: #778ca2;
+}
+
+tr:hover{
+    background-color: #f4f4f6;
+}
+
+.footer{
+    width:100%;
+    height: 51px;
+    position: relative;
+    margin-bottom: 5px;
+}
+.footer-btn{
+    font-size: 18px;
+    padding: 15px 34px;
+    background-color: #1e1e1e;
+    font-family: 'Roboto';
+    color: #fff;
+    margin-right: 10px;
+    width: 161px;
+    height: 51px;
+}

@@ -177,6 +177,7 @@ nav.navbar{
     position: absolute;
     top: 220px;
     left: 310px;
+    margin-right: 10px;
 }
 #ask-price{
     height: 361px;

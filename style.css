@@ -255,7 +255,7 @@ footer{
     height: 51px;
     display: flex;
     position: absolute;
-    top: 140%;
+    top: 130%;
     justify-content: space-between;
     padding: auto;
 }

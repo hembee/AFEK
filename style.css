@@ -136,12 +136,14 @@ nav.navbar{
 }
 @media (max-width: 1200px) {
     .btni {
-        left: 30%;
+        left: 40%;
     }
     .theme{
-        left: 45%; 
+        left: 50%; 
     }
-    
+    #balances{
+        left: 70%;
+    }
     
 }
 .btni{

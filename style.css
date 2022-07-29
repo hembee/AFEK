@@ -11,9 +11,9 @@ nav.navbar{
     height: 62px;
     width: 100%;
     border-bottom: 1px solid #EDEDED;
-    
     align-items: center;
     background-color: #fff;
+    display: flex;
 }
 .navbar-brand{
     margin-left: 15px;
@@ -70,11 +70,11 @@ nav.navbar{
 .navigate{
     width: 207px;
     height:352px;
-    position: absolute;
-    left: 92px;
-    top: 71px;
     background: #FFFFFF;
-    margin-left: 9px;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+
 }
 .search{
     width: 191px;
@@ -134,6 +134,16 @@ nav.navbar{
     color:#1e1e1e;
     
 }
+@media (max-width: 1200px) {
+    .btni {
+        left: 30%;
+    }
+    .theme{
+        left: 45%; 
+    }
+    
+    
+}
 .btni{
     width: 48px;
     
@@ -142,13 +152,22 @@ nav.navbar{
     background-color: #1e1e1e;
     color: #FFFFFF;
 }
+#grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    position: absolute;
+    left: 83px;
+    top: 63px;
+    margin-bottom: 60px;
+    
+}
 
 .board{
     width: 1119px;
     height: 115px;
-    position: absolute;
-    top: 71px;
-    left: 308px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    margin-bottom: 20px;
 }
 
 
@@ -173,18 +192,13 @@ nav.navbar{
 }
 #bid-price{
     height: 361px;
-    width: 520px;
-    position: absolute;
-    top: 220px;
-    left: 310px;
-    margin-right: 10px;
+    width: 554px;
+
 }
 #ask-price{
     height: 361px;
-    width: 520px;
-    position: absolute;
-    top: 220px;
-    right: 5px;
+    width: 554px;
+
 }
 thead{
     font-size: 12px;
@@ -220,11 +234,10 @@ thead{
     font-size: 14px;
 }
 #trade-log{
-    height: 310px;
-    width: 1040px;
-    position: relative;
-    margin-left: 298px;
-    bottom: 50px;
+    height: 329px;
+    width: 1120px;
+    grid-column-start: 2;
+    grid-column-end: 4;
 }
 .tlog-header{
     padding-top: 18px;
@@ -240,11 +253,23 @@ tr:hover{
 .footer{
     width:100%;
     height: 51px;
-    position: relative;
-    margin-bottom: 5px;
+    display: flex;
+    position: absolute;
+    top: 120%;
+    justify-content: space-between;
+    padding: auto;
+}
+.footer ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+.footer ul li{
+    list-style-type: none;
+    margin-right: 60px;
 }
 .footer-btn{
-    font-size: 18px;
+    font-size: 10px;
     padding: 15px 34px;
     background-color: #1e1e1e;
     font-family: 'Roboto';
